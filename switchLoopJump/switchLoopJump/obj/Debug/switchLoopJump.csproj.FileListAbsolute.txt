@@ -1,0 +1,8 @@
+D:\c#.net\switchLoopJump\switchLoopJump\bin\Debug\switchLoopJump.exe.config
+D:\c#.net\switchLoopJump\switchLoopJump\bin\Debug\switchLoopJump.exe
+D:\c#.net\switchLoopJump\switchLoopJump\bin\Debug\switchLoopJump.pdb
+D:\c#.net\switchLoopJump\switchLoopJump\obj\Debug\switchLoopJump.csproj.AssemblyReference.cache
+D:\c#.net\switchLoopJump\switchLoopJump\obj\Debug\switchLoopJump.csproj.SuggestedBindingRedirects.cache
+D:\c#.net\switchLoopJump\switchLoopJump\obj\Debug\switchLoopJump.csproj.CoreCompileInputs.cache
+D:\c#.net\switchLoopJump\switchLoopJump\obj\Debug\switchLoopJump.exe
+D:\c#.net\switchLoopJump\switchLoopJump\obj\Debug\switchLoopJump.pdb

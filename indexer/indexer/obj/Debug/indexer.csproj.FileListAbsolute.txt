@@ -1,0 +1,8 @@
+D:\c#.net\indexer\indexer\bin\Debug\indexer.exe.config
+D:\c#.net\indexer\indexer\bin\Debug\indexer.exe
+D:\c#.net\indexer\indexer\bin\Debug\indexer.pdb
+D:\c#.net\indexer\indexer\obj\Debug\indexer.csproj.AssemblyReference.cache
+D:\c#.net\indexer\indexer\obj\Debug\indexer.csproj.SuggestedBindingRedirects.cache
+D:\c#.net\indexer\indexer\obj\Debug\indexer.csproj.CoreCompileInputs.cache
+D:\c#.net\indexer\indexer\obj\Debug\indexer.exe
+D:\c#.net\indexer\indexer\obj\Debug\indexer.pdb
