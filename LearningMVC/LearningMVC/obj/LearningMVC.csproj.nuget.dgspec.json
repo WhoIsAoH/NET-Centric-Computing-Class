@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\c#.net\\LearningMVC\\LearningMVC\\LearningMVC.csproj": {}
+    "D:\\c#.net\\learningMVC\\LearningMVC\\LearningMVC.csproj": {}
   },
   "projects": {
-    "D:\\c#.net\\LearningMVC\\LearningMVC\\LearningMVC.csproj": {
+    "D:\\c#.net\\learningMVC\\LearningMVC\\LearningMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c#.net\\LearningMVC\\LearningMVC\\LearningMVC.csproj",
+        "projectUniqueName": "D:\\c#.net\\learningMVC\\LearningMVC\\LearningMVC.csproj",
         "projectName": "LearningMVC",
-        "projectPath": "D:\\c#.net\\LearningMVC\\LearningMVC\\LearningMVC.csproj",
+        "projectPath": "D:\\c#.net\\learningMVC\\LearningMVC\\LearningMVC.csproj",
         "packagesPath": "C:\\Users\\ajayp\\.nuget\\packages\\",
-        "outputPath": "D:\\c#.net\\LearningMVC\\LearningMVC\\obj\\",
+        "outputPath": "D:\\c#.net\\learningMVC\\LearningMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ajayp\\AppData\\Roaming\\NuGet\\NuGet.Config",
