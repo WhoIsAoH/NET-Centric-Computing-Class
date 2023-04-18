@@ -9,53 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LearningMVC
 build_property.RootNamespace = LearningMVC
-build_property.ProjectDir = D:\c#.net\LearningMVC\LearningMVC\
+build_property.ProjectDir = D:\c#.net\learningMVC\LearningMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\c#.net\LearningMVC\LearningMVC
+build_property.MSBuildProjectDirectory = D:\c#.net\learningMVC\LearningMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/BMC/Home.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/BMC/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQk1DXEhvbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/Home/Index.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/College/AddCollege.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxBZGRDb2xsZWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#.net/learningMVC/LearningMVC/Views/College/CollegeDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxDb2xsZWdlRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#.net/learningMVC/LearningMVC/Views/College/CollegeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxDb2xsZWdlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#.net/learningMVC/LearningMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/Home/LetsLearn.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/Home/LetsLearn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZXRzTGVhcm4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/Home/Privacy.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/Shared/Error.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/Student/StudentDetail.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/Student/StudentDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/_ViewImports.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/Student/StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#.net/learningMVC/LearningMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/_ViewStart.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/Shared/_Layout.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xknrn8qnnj
 
-[D:/c\#.net/LearningMVC/LearningMVC/Views/Shared/_Layouts.cshtml]
+[D:/c\#.net/learningMVC/LearningMVC/Views/Shared/_Layouts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-ryvcotoqh0
