@@ -1,8 +1,10 @@
+using LearningMVC.Controllers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddTransient<IDateService, NDateService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,10 +1,16 @@
 ﻿using LearningMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace LearningMVC.Controllers
 {
     public class CollegeController : Controller
     {
+        IDateService _service;
+        public CollegeController(IDateService dataservice)
+        {
+            _service = dataservice;
+        }
         public IActionResult CollegeDetail()
         {
             CollegeModel clz = new CollegeModel();
@@ -52,12 +58,22 @@ namespace LearningMVC.Controllers
             return View();
         }
 
+
         public IActionResult CreateCollege(CollegeModel college) { 
             string datatosave = college.CollegeName+","+college.CollegeAddress+","+college.University;
             StreamWriter sw = new StreamWriter("wwwroot/college.txt",true);
             sw.WriteLine(datatosave);
             sw.Close();
             return RedirectToAction("CollegeList");
+        }
+
+
+        //week 5
+        public IActionResult GetDate()
+        {
+            //IDateService dt = new DateService();
+            return Content(_service.GetDate());
+            //return Content("Trying other string");
         }
 
     }
