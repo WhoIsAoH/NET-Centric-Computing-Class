@@ -12,12 +12,18 @@ namespace exceptionHandling
         public childClassPoly()
         {
             Console.WriteLine("this is constructor running at last");
+            Console.WriteLine("Name:ajaya");
+            Console.WriteLine("Age:21");
+            Console.WriteLine("Destructor has been invoked");
         }
         public childClassPoly(string name)
         {
             Console.WriteLine("this is constructor running at last with the name; {0}",name);
         }
-        ~childClassPoly() { }
+        ~childClassPoly() {
+            Console.WriteLine("testing des");
+            Console.Read();
+        }
         
         public void Animal(string food)
         {

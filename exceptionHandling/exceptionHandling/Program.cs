@@ -25,7 +25,7 @@ namespace exceptionHandling
                 int myNum = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(myNum);
             }
-            catch(IndexOutOfRangeException ex)
+            catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -33,7 +33,7 @@ namespace exceptionHandling
 
             try//code to run where error may occur
             {
-                string[] names = new string[3];
+                string[] names = new string[6];
                 names[0] = "mohit";
                 names[1] = "nepal";
                 names[2] = "ajay";

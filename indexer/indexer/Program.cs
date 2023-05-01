@@ -74,11 +74,6 @@ namespace indexer
             {
                 Console.WriteLine(item );
             }
-
-
-
-
-
             Console.Read();
         }
     }

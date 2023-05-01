@@ -21,11 +21,39 @@ namespace LearningMVC.Models
             string ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=BMC;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
             SqlConnection Connection = new SqlConnection(ConnectionString);
             Connection.Open();
-            String Command = "Insert into StudentInfo values(2,'melina','csit','china')";
+
+            String Command = "Insert into StudentInfo (StudentName,Course,Address) values('"+std.StudentName+ "','"+std.Course+ "','"+std.Address+"')";
             SqlCommand cmd = new SqlCommand(Command, Connection);
             cmd.ExecuteNonQuery();
             Connection.Close();
-            return View();
+            //return ListStudent();
+           return RedirectToAction("ListStudent");
+          //  return View();
         }
+
+        public IActionResult ListStudent()
+        {
+            string ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=BMC;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+            SqlConnection Connection = new SqlConnection(ConnectionString);
+            Connection.Open();
+
+            String Command = "Select * from StudentInfo";
+            SqlCommand cmd = new SqlCommand(Command, Connection);
+            SqlDataReader sr = cmd.ExecuteReader();
+            List<StudentInfoModel> list = new List<StudentInfoModel>();
+            while (sr.Read())
+            {
+                StudentInfoModel std = new StudentInfoModel();
+                std.Id = Convert.ToInt32(sr["Id"]);
+                std.StudentName = sr["StudentName"].ToString();
+                std.Course = sr["Course"].ToString();
+                std.Address = sr["Address"].ToString();
+                list.Add(std);
+            }
+            Connection.Close();
+
+            return View(list);
+        }
+
     }
 }
