@@ -13,7 +13,8 @@ namespace LearningMVC.Controllers
         {
             return PartialView("Home");
         }
-        public ContentResult Content()
+       
+            public ContentResult Content()
         {
             return Content("nepal chor ho");
         }
